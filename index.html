@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Thiết bị OceanBlue</title>
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#1a1e22" media="(prefers-color-scheme: dark)">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="stylesheet" href="nasa-ui.css?v=4">
+<link rel="stylesheet" href="style.css?v=10">
+</head>
+<body>
+  <header class="ui-topbar">
+    <div class="ui-topbar-inner">
+      <button type="button" class="ui-brand" id="homeBrand">
+        <span class="ui-app-icon"><i data-icon="fan"></i></span>
+        <span class="ui-brand-text">
+          <span class="ui-brand-title" id="appTitle">Thiết bị OceanBlue</span>
+          <span class="ui-brand-sub" id="appSub">Dàn ngưng bay hơi</span>
+        </span>
+      </button>
+      <div class="ui-topbar-actions">
+        <button type="button" id="quoteToggle" class="ui-btn ui-btn-sm ui-hide-mobile"><i data-icon="clipboard-list"></i><span id="quoteLabel">Báo cáo</span><span class="ui-count" id="quoteCount">0</span></button>
+        <button type="button" id="langToggle" class="ui-btn ui-btn-sm ui-btn-ghost" aria-label="Language"><i data-icon="languages"></i><span id="langLabel" class="ui-mono">EN</span></button>
+      </div>
+    </div>
+  </header>
+
+  <main id="app" class="ui-main"></main>
+
+  <footer class="ui-foot">
+    <span id="buildVersion"></span>
+  </footer>
+
+  <nav class="ui-bottombar" aria-label="Menu">
+    <button type="button" class="ui-bottombar-btn" id="navHome"><span class="ui-bottombar-pill"><i data-icon="house"></i></span><span id="navHomeLabel">Trang chủ</span></button>
+    <button type="button" class="ui-bottombar-btn" id="navQuote"><span class="ui-bottombar-pill"><i data-icon="clipboard-list"></i><span class="ui-count" id="quoteCountMobile">0</span></span><span id="navQuoteLabel">Báo cáo</span></button>
+  </nav>
+
+  <script src="icons.js"></script>
+  <script src="data.js"></script>
+  <script src="data-io.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
