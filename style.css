@@ -48,3 +48,4 @@
 /* Biểu tượng app (chữ tên hãng) ở thanh đầu */
 .ui-app-icon img { width: 100%; height: 100%; display: block; border-radius: inherit; }
 .ui-app-icon:has(img) { background: none; box-shadow: none; }
+.ui-app-icon img { outline: 1px solid var(--ui-border); outline-offset: -1px; }
