@@ -1,6 +1,6 @@
 // Cache Storage dùng chung cả origin decoolboy-source.github.io: chỉ xóa cache của chính app này.
 const CACHE_PREFIX = "OCEANBLUEselect-";
-const CACHE_NAME = CACHE_PREFIX + "v1";
+const CACHE_NAME = CACHE_PREFIX + "v2";
 const CORE_ASSETS = [
   "./",
   "./index.html",

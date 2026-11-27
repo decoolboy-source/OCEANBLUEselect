@@ -1,4 +1,4 @@
-const BUILD_VERSION = "2026-11-26.1";
+const BUILD_VERSION = "2026-11-27.1";
 
 const LS_KEYS = { lang: "OCEANBLUEselect:lang", quoteList: "OCEANBLUEselect:quoteList", quoteProjectInfo: "OCEANBLUEselect:quoteProjectInfo" };
 /* [OCEANBLUEselect] localStorage dùng chung origin với các PWA khác: mọi khóa của app này có tiền tố "OCEANBLUEselect:". */
